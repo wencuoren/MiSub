@@ -159,9 +159,7 @@
 3. 进入 `Workers & Pages` → `创建应用程序` → `Pages` → `连接到 Git`
 4. 选择你 Fork 的仓库
 5. 配置构建设置:
-   - **框架预设**: `Vue`
-   - **构建命令**: `npm run build`
-   - **构建输出目录**: `dist`
+   - **构建命令**: `npx wrangler deploy --assets=./dist --compatibility-date=2026-05-08`
 6. 点击 `保存并部署`
 
 ---
